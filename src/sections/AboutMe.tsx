@@ -1,9 +1,9 @@
-function About() {
+function AboutMe() {
     return (
         <div>
-            <h1>About Heading</h1>
+            <h1>About Me Heading</h1>
         </div>
     )
 }
 
-export default About
+export default AboutMe
