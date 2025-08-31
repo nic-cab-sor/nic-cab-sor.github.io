@@ -7,18 +7,30 @@ import Projects from './sections/Projects'
 import MyJourney from './sections/MyJourney'
 import AboutMe from './sections/AboutMe'
 import Contact from './sections/Contact'
-import './styles/App.css'
+import Footer from './components/Footer'
+// import './styles/App.css'
 
 function App() {
 
   return (
     <>
-      <Navbar></Navbar>
-      <Intro></Intro>
-      <Projects></Projects>
-      <MyJourney></MyJourney>
-      <AboutMe></AboutMe>
-      <Contact></Contact>
+      <header>
+        <Navbar/>
+        <Intro/>
+      </header>
+      
+      <main>
+        <Projects></Projects>
+        <MyJourney></MyJourney>
+        <AboutMe></AboutMe>
+        <footer>
+          <Contact></Contact>
+        </footer>
+      </main>
+      
+      <footer>
+        <Footer></Footer>
+      </footer>
     </>
   )
 }

@@ -1,9 +1,12 @@
 function Intro() {
     return (
-        <div>
-            <h1>Intro
-             Heading</h1>
-        </div>
+        <section>
+            <header>
+                <h1>Nicole Cabaya</h1>
+            </header>
+            <p>Here is some text about me, this will be about two sentences long.</p>
+            <div>Container for skill badges.</div>
+        </section>
     )
 }
 

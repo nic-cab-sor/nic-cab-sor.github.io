@@ -1,8 +1,11 @@
 function MyJourney() {
     return (
-        <div>
-            <h1>MyJourney Heading</h1>
-        </div>
+        <section>
+            <header>
+                <h1>MyJourney</h1>
+            </header>
+            <p>my journey will go here</p>
+        </section>
     )
 }
 

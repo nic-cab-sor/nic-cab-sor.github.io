@@ -1,8 +1,11 @@
 function Projects() {
     return (
-        <div>
-            <h1>Projects Heading</h1>
-        </div>
+        <section>
+            <header>
+                <h1>Projects</h1>
+            </header>
+            <p>my projects will go here</p>
+        </section>
     )
 }
 

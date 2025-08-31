@@ -1,8 +1,11 @@
 function AboutMe() {
     return (
-        <div>
-            <h1>About Me Heading</h1>
-        </div>
+        <section>
+            <header>
+                <h1>About Me</h1>
+            </header>
+            <p>about me will go here</p>
+        </section>
     )
 }
 
