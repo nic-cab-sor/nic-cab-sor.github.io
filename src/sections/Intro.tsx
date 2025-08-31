@@ -2,10 +2,15 @@ function Intro() {
     return (
         <section>
             <header>
-                <h1>Nicole Cabaya</h1>
+                <h1>Hi, I'm Nicole</h1>
             </header>
             <p>Here is some text about me, this will be about two sentences long.</p>
-            <div>Container for skill badges.</div>
+            <section>
+                Container for skill badges.
+                <span className="badge text-bg-info">Skill</span>
+                <span className="badge text-bg-secondary">Skill</span>
+                <span className="badge text-bg-primary">Skill</span>
+            </section>
         </section>
     )
 }
