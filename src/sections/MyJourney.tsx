@@ -1,6 +1,6 @@
 function MyJourney() {
     return (
-        <section>
+        <section id='myjourney'>
             <header>
                 <h1>MyJourney</h1>
             </header>

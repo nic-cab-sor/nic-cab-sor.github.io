@@ -3,7 +3,7 @@ import Badge from 'react-bootstrap/Badge';
 
 function Intro() {
     return (
-        <section>
+        <section id='intro'>
             <header>
                 <h1>Hi, I'm Nicole</h1>
             </header>

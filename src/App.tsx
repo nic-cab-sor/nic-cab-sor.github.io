@@ -1,7 +1,7 @@
 // import { useState } from 'react'
 // import reactLogo from './assets/react.svg'
 // import viteLogo from '/vite.svg'
-import Navbar from './components/Navbar'
+import MyNavbar from './components/MyNavbar'
 import Intro from './sections/Intro'
 import Projects from './sections/Projects'
 import MyJourney from './sections/MyJourney'
@@ -15,10 +15,10 @@ function App() {
   return (
     <>
       <header>
-        <Navbar/>
-        <Intro/>
+        <MyNavbar />
+        <Intro />
       </header>
-      
+
       <main>
         <Projects></Projects>
         <MyJourney></MyJourney>
@@ -27,7 +27,7 @@ function App() {
           <Contact></Contact>
         </footer>
       </main>
-      
+
       <footer>
         <Footer></Footer>
       </footer>
