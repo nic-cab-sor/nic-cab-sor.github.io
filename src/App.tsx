@@ -13,25 +13,29 @@ import Footer from './components/Footer'
 function App() {
 
   return (
-    <>
-      <header>
-        <MyNavbar />
-        <Intro />
-      </header>
+    <div className='container'>
+      <div className='row justify-content-center'>
+        <div className="col-12 col-md-8">
+          <header>
+          <MyNavbar />
+          <Intro />
+          </header>
 
-      <main>
-        <Projects></Projects>
-        <MyJourney></MyJourney>
-        <AboutMe></AboutMe>
-        <footer>
-          <Contact></Contact>
-        </footer>
-      </main>
+          <main>
+            <Projects></Projects>
+            <MyJourney></MyJourney>
+            <AboutMe></AboutMe>
+            <footer>
+              <Contact></Contact>
+            </footer>
+          </main>
 
-      <footer>
-        <Footer></Footer>
-      </footer>
-    </>
+          <footer>
+            <Footer></Footer>
+          </footer>
+        </div>
+      </div>
+    </div>
   )
 }
 

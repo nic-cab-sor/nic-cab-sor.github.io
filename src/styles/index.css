@@ -5,3 +5,9 @@
     Fonts
     Root variables (like :root { --color-primary: #...} )
     General styles that affect the whole application */
+
+.navbar-toggler:focus,
+.navbar-toggler:active {
+  box-shadow: 0 0 0 0.1rem black;
+  outline: none;
+}
