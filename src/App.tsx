@@ -1,13 +1,10 @@
-// import { useState } from 'react'
-// import reactLogo from './assets/react.svg'
-// import viteLogo from '/vite.svg'
+import Footer from './components/Footer'
 import MyNavbar from './components/MyNavbar'
-import Intro from './sections/Intro'
-import Projects from './sections/Projects'
-import MyJourney from './sections/MyJourney'
 import AboutMe from './sections/AboutMe'
 import Contact from './sections/Contact'
-import Footer from './components/Footer'
+import Intro from './sections/Intro'
+import MyJourney from './sections/MyJourney'
+import Projects from './sections/Projects'
 // import './styles/App.css'
 
 function App() {
