@@ -6,8 +6,13 @@
     Root variables (like :root { --color-primary: #...} )
     General styles that affect the whole application */
 
+* {
+  color: #0A0A0A !important;
+}
+
 body {
   font-family: 'Inconsolata', monospace;
+  background-color: #FFE7ED;
 }
 
 .navbar-toggler:focus,

@@ -1,9 +1,9 @@
 function MyNavbar() {
     return (
-        <nav className="navbar sticky-top navbar-expand-md bg-white">
+        <nav className="navbar sticky-top navbar-expand-md bg-transparent">
             <div className="container-fluid">
                 <div className="collapse navbar-collapse p-2" id='my-navbar-nav'>
-                    <ul className='navbar-nav flex-row d-flex justify-content-evenly ms-auto'>
+                    <ul className='navbar-nav flex-row d-flex justify-content-evenly ms-auto fw-semibold'>
                         <li className="navbar-item">
                             <a className="nav-link active" href='#intro'>Intro</a>
                         </li>
