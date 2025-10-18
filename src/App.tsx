@@ -14,11 +14,11 @@ function App() {
       <div className='row justify-content-center'>
         <div className="col-12 col-md-8">
           <header>
-          <MyNavbar />
-          <Intro />
+            <MyNavbar />
           </header>
 
-          <main>
+          <main className='d-flex flex-column gap-2 gap-md-3 gap-lg-4'>
+            <Intro />
             <Projects></Projects>
             <MyJourney></MyJourney>
             <AboutMe></AboutMe>
