@@ -7,22 +7,22 @@ type ProjectInfo = {
 
 function ProjectCard({ image, title, description, skills }: ProjectInfo) {
     return (
-        <article className="card shadow-sm rounded-4 overflow-hidden">
-            <figure className="mb-0">
-                <img
-                    src={image}
-                    alt={title}
-                    className="card-img-top"
-                    style={{ objectFit: "cover", height: "200px" }}
-                />
-            </figure>
-            <section className="card-body">
-                <header>
-                    <h2 className="card-title h5 fw-bold">{title}</h2>
-                </header>
-                <p className="card-text text-secondary">{description}</p>
-                <footer className="mt-3 d-flex gap-2">{skills}</footer>
-            </section>
+        <article className="card rounded-4 p-0 overflow-hidden">
+            <a
+                href=""
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-decoration-none"
+            >
+                <figure className="m-0 p-0">
+                    <img src={image} className="card-img-top" alt={title} style={{ height: "200px", objectFit: "cover" }}/>
+                </figure>
+                <section className="card-body">
+                    <div className="d-flex flex-wrap gap-2 pb-2">{skills}</div>
+                    <h5 className="card-title">{title}</h5>
+                    <p className="card-text text-secondary">{description}</p>
+                </section>
+            </a>
         </article>
     )
 }

@@ -2,3 +2,9 @@
 /* Applied in App.tsx */
 /* typical content:
     styles specific to layout or design of the App component */
+
+.navbar-toggler:focus,
+.navbar-toggler:active {
+  box-shadow: 0 0 0 0.1rem black;
+  outline: none;
+}

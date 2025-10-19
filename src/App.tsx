@@ -5,14 +5,14 @@ import Contact from './sections/Contact'
 import Intro from './sections/Intro'
 import MyJourney from './sections/MyJourney'
 import Projects from './sections/Projects'
-// import './styles/App.css'
+import './styles/App.css'
 
 function App() {
 
   return (
     <div className='container'>
       <div className='row justify-content-center'>
-        <div className="col-12 col-md-8">
+        <div className="col-12 col-md-9">
           <header>
             <MyNavbar />
           </header>
