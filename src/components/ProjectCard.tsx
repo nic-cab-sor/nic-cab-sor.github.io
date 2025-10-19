@@ -2,14 +2,15 @@ type ProjectInfo = {
     image: string,
     title: string,
     description: string,
-    skills: React.ReactNode;
+    skills: React.ReactNode,
+    githubLink: string;
 }
 
-function ProjectCard({ image, title, description, skills }: ProjectInfo) {
+function ProjectCard({ image, title, description, skills, githubLink }: ProjectInfo) {
     return (
         <article className="card rounded-4 p-0 overflow-hidden">
             <a
-                href=""
+                href={githubLink}
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-decoration-none"

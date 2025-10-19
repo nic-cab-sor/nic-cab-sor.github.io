@@ -18,17 +18,18 @@ function createBadge(colour: string, text: string): React.ReactNode {
 }
 
 function Projects() {
+    const githubPage = "https://github.com";
     return (
         <section id='projects'>
             <header>
                 <h1>Projects</h1>
             </header>
             <div className="row row-cols-2 row-cols-md-2 row-cols-lg-3 justify-content-center gy-2 p-2">
-                <ProjectCard image={img1} title="Example Project" description="This is an example project description." skills={[javaBadge]} />
-                <ProjectCard image={img2} title="title" description="description" skills={[javascript]} />
-                <ProjectCard image={img3} title="title" description="description" skills={[pythonBadge]} />
-                <ProjectCard image={img1} title="title" description="description" skills={[javaBadge, javascript]} />
-                <ProjectCard image={img2} title="title" description="description" skills={[javascript, bootstrapBadge]} />
+                <ProjectCard githubLink={githubPage} image={img1} title="Example Project" description="This is an example project description." skills={[javaBadge]} />
+                <ProjectCard githubLink={githubPage} image={img2} title="title" description="description" skills={[javascript]} />
+                <ProjectCard githubLink={githubPage} image={img3} title="title" description="description" skills={[pythonBadge]} />
+                <ProjectCard githubLink={githubPage} image={img1} title="title" description="description" skills={[javaBadge, javascript]} />
+                <ProjectCard githubLink={githubPage} image={img2} title="title" description="description" skills={[javascript, bootstrapBadge]} />
             </div>
         </section>
     )
