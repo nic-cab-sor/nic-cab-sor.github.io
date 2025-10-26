@@ -8,3 +8,7 @@
   box-shadow: 0 0 0 0.1rem black;
   outline: none;
 }
+
+.bg-card {
+  background-color: #FAF8F6;
+}

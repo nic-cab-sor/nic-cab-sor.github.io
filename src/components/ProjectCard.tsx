@@ -1,27 +1,27 @@
 type ProjectInfo = {
-    image: string,
     title: string,
+    type: React.ReactNode,
     description: string,
     skills: React.ReactNode,
     githubLink: string;
 }
 
-function ProjectCard({ image, title, description, skills, githubLink }: ProjectInfo) {
+function ProjectCard({ type, title, description, skills, githubLink }: ProjectInfo) {
     return (
-        <article className="card rounded-4 p-0 overflow-hidden">
+        <article className="card rounded-4 bg-card">
             <a
                 href={githubLink}
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-decoration-none"
             >
-                <figure className="m-0 p-0">
-                    <img src={image} className="card-img-top" alt={title} style={{ height: "200px", objectFit: "cover" }}/>
-                </figure>
                 <section className="card-body">
-                    <div className="d-flex flex-wrap gap-2 pb-2">{skills}</div>
-                    <h5 className="card-title">{title}</h5>
+                    <div className="d-flex justify-content-between gap-2 mb-2">
+                        <h5 className="card-title m-0">{title}</h5>
+                        {type}
+                    </div>
                     <p className="card-text text-secondary">{description}</p>
+                    <div className="d-flex flex-wrap gap-2">{skills}</div>
                 </section>
             </a>
         </article>
