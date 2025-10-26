@@ -1,3 +1,4 @@
+import cover from "./assets/cover.jpg"
 import Footer from './components/Footer'
 import MyNavbar from './components/MyNavbar'
 import AboutMe from './sections/AboutMe'
@@ -18,6 +19,14 @@ function App() {
           </header>
 
           <main className='d-flex flex-column gap-2 gap-md-3 gap-lg-4'>
+            <figure className="position-relative overflow-hidden mb-4" style={{ height: "20rem" }}>
+              <img
+                src={cover}
+                alt="Cover image"
+                className="w-100 h-100"
+                style={{ objectFit: "cover", objectPosition: "top" }}
+              />
+            </figure>
             <Intro />
             <Projects></Projects>
             <MyJourney></MyJourney>
