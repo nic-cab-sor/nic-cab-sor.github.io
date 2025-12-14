@@ -6,6 +6,7 @@ import Contact from './sections/Contact'
 import Intro from './sections/Intro'
 import MyJourney from './sections/MyJourney'
 import Projects from './sections/Projects'
+import ProjectsCS2 from "./sections/ProjectsCS2"
 import './styles/App.css'
 
 function App() {
@@ -14,30 +15,31 @@ function App() {
     <div className='container'>
       <div className='row justify-content-center'>
         <div className="col-12 col-md-9">
-          <header>
+          {/* <header>
             <MyNavbar />
-          </header>
+          </header> */}
 
           <main className='d-flex flex-column gap-2 gap-md-3 gap-lg-4'>
-            <figure className="position-relative overflow-hidden mb-4" style={{ height: "20rem" }}>
+            {/* <figure className="position-relative overflow-hidden mb-4" style={{ height: "20rem" }}>
               <img
                 src={cover}
                 alt="Cover image"
                 className="w-100 h-100"
                 style={{ objectFit: "cover", objectPosition: "top" }}
               />
-            </figure>
-            <Intro />
+            </figure> */}
+            <ProjectsCS2 />
+            {/* <Intro />
             <Projects></Projects>
             <MyJourney></MyJourney>
             <AboutMe></AboutMe>
             <footer>
               <Contact></Contact>
-            </footer>
+            </footer> */}
           </main>
 
           <footer>
-            <Footer></Footer>
+            {/* <Footer></Footer> */}
           </footer>
         </div>
       </div>
