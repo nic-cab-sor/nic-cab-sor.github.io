@@ -6,14 +6,27 @@
     Root variables (like :root { --color-primary: #...} )
     General styles that affect the whole application */
 
-html, body {
+html,
+body {
   font-family: 'Inconsolata', monospace;
   /* background-color: #FFE7ED; */
 
-  height: 100%;                /* Ensure the html and body cover the full height */
-  margin: 0;                   /* Remove default margin */
-  background-image: url('download.gif');  /* Path to the image in src/assets */
-  background-size: cover;      /* Make the background image cover the entire page */
-  background-position: center; /* Center the background image */
-  background-attachment: fixed;/* Keep the background fixed during scrolling (optional) */
+  height: 100%;
+  /* Ensure the html and body cover the full height */
+  margin: 0;
+  /* Remove default margin */
+  background-color: rgba(220, 121, 1);
+  background-image: url("agent.png");
+  /* background-repeat: no-repeat;  */
+  /* Path to the image in src/assets */
+  background-size: auto;
+  /* Make the background image cover the entire page */
+  background-position: center;
+  /* Center the background image */
+  background-attachment: fixed;
+  /* Keep the background fixed during scrolling (optional) */
+}
+
+.impact-font {
+  font-family: "Impact", monospace;
 }

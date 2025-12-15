@@ -15,22 +15,10 @@ function App() {
     <div className='container'>
       <div className='row justify-content-center'>
         <div className="col-12 col-md-9">
-          {/* <header>
-            <MyNavbar />
-          </header> */}
-
-          <main className='d-flex flex-column gap-2 gap-md-3 gap-lg-4'>
-            {/* <figure className="position-relative overflow-hidden mb-4" style={{ height: "20rem" }}>
-              <img
-                src={cover}
-                alt="Cover image"
-                className="w-100 h-100"
-                style={{ objectFit: "cover", objectPosition: "top" }}
-              />
-            </figure> */}
+          <main className='m-2 m-md-3 m-md-4 d-flex flex-column gap-2 gap-md-3 gap-lg-4'>
+            <Intro />
             <ProjectsCS2 />
-            {/* <Intro />
-            <Projects></Projects>
+            {/* <Projects></Projects>
             <MyJourney></MyJourney>
             <AboutMe></AboutMe>
             <footer>
