@@ -1,0 +1,23 @@
+.fluid-clamp {
+  width: clamp(300px, 50vw, 500px);
+  height: auto;
+  object-fit: contain; /* or cover */
+}
+
+.custom-heading {
+  font-size: clamp(1rem, 6vw, 4rem);
+}
+
+.custom-button {
+  background-color: #00A8E8;
+  color: #000;
+}
+
+.custom-button:hover {
+  background-color: #007EA7;
+}
+
+.custom-button:active {
+  background-color: #003459 !important;
+    box-shadow: 1px 1px 25px 10px rgba(255, 255, 255, 0.5);
+}

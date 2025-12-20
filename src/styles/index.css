@@ -6,17 +6,18 @@
     Root variables (like :root { --color-primary: #...} )
     General styles that affect the whole application */
 
+@import url('https://fonts.googleapis.com/css2?family=Google+Sans+Code:ital,wght@0,300..800;1,300..800&display=swap');
+
 html,
 body {
-  font-family: 'Inconsolata', monospace;
-  /* background-color: #FFE7ED; */
+  font-family: "Google Sans Code", monospace;
+  color: #FFFFFF;
 
   height: 100%;
   /* Ensure the html and body cover the full height */
   margin: 0;
   /* Remove default margin */
-  background-color: rgba(220, 121, 1);
-  background-image: url("agent.png");
+  background-color: #00171F;
   /* background-repeat: no-repeat;  */
   /* Path to the image in src/assets */
   background-size: auto;
