@@ -35,6 +35,7 @@ function App() {
 
     <div>
       <Intro></Intro>
+      <Projects></Projects>
     </div>
   )
 }

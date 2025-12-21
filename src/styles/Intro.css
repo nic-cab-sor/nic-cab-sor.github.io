@@ -1,23 +1,29 @@
-.fluid-clamp {
-  width: clamp(300px, 50vw, 500px);
+.hero-img {
+  width: clamp(200px, 60%, 400px);
   height: auto;
-  object-fit: contain; /* or cover */
+  object-fit: contain;
 }
 
-.custom-heading {
-  font-size: clamp(1rem, 6vw, 4rem);
+.hero-text {
+  width: clamp(200px, 70%, 450px);
 }
 
-.custom-button {
-  background-color: #00A8E8;
-  color: #000;
+.hero-heading {
+  font-size: clamp(1.6rem, 8vw, 3.5rem);
 }
 
-.custom-button:hover {
-  background-color: #007EA7;
+@keyframes bounce {
+  0%, 20%, 50%, 80%, 100% {
+    transform: translateY(0);
+  }
+  40% {
+    transform: translateY(-3px);
+  }
+  60% {
+    transform: translateY(-3px);
+  }
 }
 
-.custom-button:active {
-  background-color: #003459 !important;
-    box-shadow: 1px 1px 25px 10px rgba(255, 255, 255, 0.5);
+.bounce {
+  animation: bounce 3s infinite;
 }
