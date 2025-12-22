@@ -1,3 +1,8 @@
+.hero-section {
+  min-height: 100vh;   /* fallback, 100% of viewport height */
+  min-height: 100dvh;  /* mobile-correct, 100% of visible viewport height (if compatible) */
+}
+
 .hero-img {
   width: clamp(200px, 60%, 400px);
   height: auto;
@@ -9,7 +14,7 @@
 }
 
 .hero-heading {
-  font-size: clamp(1.6rem, 8vw, 3.5rem);
+  font-size: clamp(1.6rem, 7.6vw, 3.5rem);
 }
 
 @keyframes bounce {
