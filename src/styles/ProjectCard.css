@@ -1,0 +1,8 @@
+/* Override bg colour */
+.card {
+    background-color: #00171F;
+}
+
+.card:hover {
+    background-color: #002430f3;
+}

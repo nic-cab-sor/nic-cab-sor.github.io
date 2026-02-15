@@ -3,52 +3,13 @@
 /* typical content:
     styles specific to layout or design of the App component */
 
-.navbar-toggler:focus,
-.navbar-toggler:active {
-  box-shadow: 0 0 0 0.1rem black;
-  outline: none;
+/* COLOURS */
+
+h1, h2, h3, h4, h5, h6 {
+  color: var(--text-offwhite) !important;
 }
 
-.bg-card {
-  background-color: #FAF8F6;
+/* Override the text colour */
+.text-bg-info, .text-bg-light {
+  color: var(--bg-dark-primary) !important;
 }
-
-/* NEW */
-
-.title {
-  font-size: 5rem;
-}
-
-.project-bg-colour {
-  background-color: rgba(32, 32, 32, 0.97);
-}
-
-.project-card-bg-colour {
-  background-color: rgba(59, 59, 59, 0.6);
-}
-
-.project-card-bg-colour:hover {
-  border-color: rgba(255, 255, 255, 0.6) !important;
-}
-
-.project-card-bg-colour:active * {
-  color: rgba(64, 64, 64) !important;
-}
-
-.project-card-bg-colour:active span {
-  background-color: rgba(64, 64, 64) !important;
-  color: grey !important;
-}
-
-.project-card-colour {
-  background-color: #71fedb;
-}
-
-.my-orange {
-  background-color: rgba(220, 121, 1);
-}
-
-.custom-color {
-  background-color: #C17C74;
-}
-

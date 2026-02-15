@@ -10,22 +10,21 @@
 
 html,
 body {
-  font-family: "Google Sans Code", monospace;
-  color: #FFFAFA;
+  /* GLOBAL VARS */
+  --bg-dark-primary: #00171F;
+  --text-offwhite: #FFFAFA;
 
-  height: 100%;
-  /* Ensure the html and body cover the full height */
-  margin: 0;
-  /* Remove default margin */
-  background-color: #00171F;
-  /* background-repeat: no-repeat;  */
-  /* Path to the image in src/assets */
+  /* BACKGROUND */
+  background-color: var(--bg-dark-primary);
   background-size: auto;
-  /* Make the background image cover the entire page */
-  background-position: center;
-  /* Center the background image */
-  background-attachment: fixed;
-  /* Keep the background fixed during scrolling (optional) */
+
+  /* TEXT */
+  font-family: "Google Sans Code", monospace;
+  color: var(--text-offwhite);
+
+  /* MISC */
+  height: 100%;
+  margin: 0;
 }
 
 .impact-font {
